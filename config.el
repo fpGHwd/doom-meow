@@ -170,6 +170,7 @@ switch to MOTION state."
         ((modulep! +dvorak) (+meow--setup-dvorak))
         ((modulep! +dvp) (+meow--setup-dvp))
         ((modulep! +colemak) (+meow--setup-colemak))
+        ((modulep! +tree-sitter (meow-tree-sitter-register-defaults)))
         (t nil))
 
 ;;;; Doom leader/localleader
